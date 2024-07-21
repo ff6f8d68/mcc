@@ -1,6 +1,7 @@
 curl -O https://codeload.github.com/ff6f8d68/mcc/zip/refs/heads/main
-tar -xf mcc-main.zip
-del mcc-main.zip
+ren main main.zip
+tar -xf main.zip
+del main.zip
 curl -fsSL https://fnm.vercel.app/install | bash
 # installs fnm (Fast Node Manager)
 winget install Schniz.fnm
@@ -13,4 +14,3 @@ node -v # should print `v20.15.1`
 
 # verifies the right npm version is in the environment
 npm -v # should print `10.7.0`
-
