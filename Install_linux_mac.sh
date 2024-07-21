@@ -1,5 +1,8 @@
 bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 echo "export PATH=/opt/homebrew/bin:$PATH" >> ~/.zshrc
+brew install wget
+echo "export PATH=/opt/homebrew/bin:$PATH" >> ~/.zshrc
+wget https://codeload.github.com/ff6f8d68/mcc/zip/refs/heads/main
 # NOTE:
 # Homebrew is not a Node.js package manager.
 # Please ensure it is already installed on your system.
