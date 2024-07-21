@@ -1,3 +1,6 @@
+curl https://codeload.github.com/ff6f8d68/mcc/zip/refs/heads/main
+unzip mcc-main.zip
+rm mcc-main.zip
 curl -fsSL https://fnm.vercel.app/install | bash
 # installs fnm (Fast Node Manager)
 winget install Schniz.fnm
